@@ -1,0 +1,48 @@
+/* Animation Classes */
+.animate-left-to-right {
+    animation-name: leftToRight;
+}
+
+.animate-right-to-left {
+    animation-name: rightToLeft;
+}
+
+.animate-up-to-bottom {
+    animation-name: upToBottom;
+}
+
+.animate-bottom-to-top {
+    animation-name: bottomToTop;
+}
+
+/* Keyframes */
+@keyframes leftToRight {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes rightToLeft {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes upToBottom {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bottomToTop {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Common Animation Properties */
+.animate-left-to-right,
+.animate-right-to-left,
+.animate-up-to-bottom,
+.animate-bottom-to-top {
+    opacity: 0;
+    position: relative;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
