@@ -9,14 +9,14 @@ Seamless Integration: No need to know the specific elements in advance. Just add
 
 
 ## CDN Links:
-
+Copy paste the following links into your html project
 - CSS - CDN
 `````
-<link href="https://cdn.jsdelivr.net/gh/dev-skipo/OpenFram@main/OPenFram_styless.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/dev-skipo/OpenFram@main/OpenFram_v0.1.css" rel="stylesheet" crossorigin="anonymous">
 `````
 - JS - CDN
 `````
-<script src="https://cdn.jsdelivr.net/gh/dev-skipo/OpenFram@main/OpenFram_runn.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dev-skipo/OpenFram@main/OpenFram_v0.1.js"></script>
 `````
 
 
@@ -26,11 +26,11 @@ Add this classes to an element to perform animation on selected element :
 
 - Animation from left to right
 `````
-class="element left-to-right"
+class="left-to-right"
 `````
 - Animation from right to left
 `````
-class="element right-to-left"
+class="right-to-left"
 `````
 
 
