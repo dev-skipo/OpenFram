@@ -22,7 +22,7 @@ Seamless Integration: No need to know the specific elements in advance. Just add
 
 ## Classes and Elements:
 
-Add this classes to any ellement to perform animation on selected ellenent :
+Add this classes to an element to perform animation on selected element :
 
 - Animation from left to right
 `````
