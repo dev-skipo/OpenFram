@@ -30,7 +30,7 @@ class="element left-to-right"
 `````
 - Animation from right to left
 `````
-class="element left-to-right"
+class="element right-to-left"
 `````
 
 
