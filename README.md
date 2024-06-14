@@ -12,7 +12,7 @@ Seamless Integration: No need to know the specific elements in advance. Just add
 
 - CSS - CDN
 `````
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/gh/dev-skipo/OpenFram@main/OPenFram_styless.css" rel="stylesheet" crossorigin="anonymous">
 `````
 - JS - CDN
 `````
